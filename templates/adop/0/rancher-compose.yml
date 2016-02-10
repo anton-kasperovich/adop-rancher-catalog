@@ -24,124 +24,124 @@
       required: true
 
     - variable: "LDAP_PWD"
-      label: ""
+      label: "LDAP password"
       description: ""
       type: "password"
       default: "Jpk66g63ZifGYIcShSGM"
       required: true
 
     - variable: "LDAP_DOMAIN"
-      label: ""
+      label: "LDAP domain"
       description: ""
       type: "string"
       default: "ldap.example.com"
       required: true
 
     - variable: "LDAP_FULL_DOMAIN"
-      label: ""
+      label: "LDAP full domain"
       description: ""
       type: "string"
       default: "dc=ldap,dc=example,dc=com"
       required: true
 
     - variable: "GERRIT_MYSQL_USER"
-      label: ""
+      label: "Gerrit MySQL user"
       description: ""
       type: "string"
       default: "gerrit"
       required: true
 
     - variable: "GERRIT_MYSQL_PASSWORD"
-      label: ""
+      label: "Gerrit MySQL password"
       description: ""
       type: "password"
       default: "gerrit"
       required: true
 
     - variable: "GERRIT_MYSQL_DATABASE"
-      label: ""
+      label: "Gerrit MySQL database name"
       description: ""
       type: "string"
       default: "gerrit"
       required: true
 
     - variable: "GERRIT_USER_NAME"
-      label: ""
+      label: "Gerrit user name"
       description: ""
       type: "string"
       default: "Gerrit Code Review"
       required: true
 
     - variable: "GERRIT_USER_EMAIL"
-      label: ""
+      label: "Gerrit user email"
       description: ""
       type: "string"
       default: "gerrit@adop"
       required: true
 
     - variable: "SONAR_MYSQL_USER"
-      label: ""
+      label: "Sonar MySQL user"
       description: ""
       type: "string"
       default: "sonar"
       required: true
 
     - variable: "SONAR_MYSQL_PASSWORD"
-      label: ""
+      label: "Sonar MySQL password"
       description: ""
       type: "password"
       default: "sonar"
       required: true
 
     - variable: "SONAR_MYSQL_DATABASE"
-      label: ""
+      label: "Sonar MySQL database name"
       description: ""
       type: "string"
       default: "sonar"
       required: true
 
     - variable: "SONAR_ACCOUNT_LOGIN"
-      label: ""
+      label: "Sonar Account login"
       description: ""
       type: "string"
       default: "jenkins"
       required: true
 
     - variable: "SONAR_ACCOUNT_PASSWORD"
-      label: ""
+      label: "Sonar Account password"
       description: "Sonar account password"
       type: "password"
       default: "jenkins"
       required: true
 
     - variable: "SONAR_DB_LOGIN"
-      label: ""
+      label: "Sonar DB login"
       description: ""
       type: "string"
       default: "sonar"
       required: true
 
     - variable: "SONAR_DB_PASSWORD"
-      label: ""
+      label: "Sonar DB password"
       description: ""
       type: "password"
       default: "sonar"
       required: true
 
     - variable: "DOCKER_HOST"
-      label: ""
+      label: "Dockre host"
       description: ""
       type: "string"
       default: ""
 
     - variable: "DOCKER_TLS_VERIFY"
-      label: ""
+      label: "Docker TLS verify"
       description: ""
       type: "string"
       default: ""
 
     - variable: "DOCKER_CLIENT_CERT_PATH"
-      label: ""
+      label: "Docker client cert path"
       description: ""
       type: "string"
       default: "/root/.docker/"
