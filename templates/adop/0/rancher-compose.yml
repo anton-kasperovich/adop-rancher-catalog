@@ -1,7 +1,8 @@
 .catalog:
-  name: "ADOP"
-  version: "v0.1.0-rancher1"
-  description: "Accenture DevOps Platform"
+  name: ADOP
+  version: 0.1.0-rancher1
+  description: |
+    (Experimental) Accenture DevOps Platform.
   minimum_rancher_version: v0.46.0
   questions:
     - variable: "TARGET_HOST"
